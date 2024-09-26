@@ -1,5 +1,8 @@
 # Prayer Time Data Standards for Mosques
 
+## Status
+DRAFT
+
 ## Introduction
 In the age of digital communication and integration, accurate and easily accessible prayer time data is essential for mosques and Muslim communities worldwide. The diversity in methods and formats for sharing this data has led to inconsistencies and inefficiencies. By establishing a unified **Prayer Time Data Standard**, we can ensure that prayer times are shared reliably and consistently across different platforms and applications, benefiting developers, communities, and individuals alike.
 
@@ -40,6 +43,40 @@ An open standard for prayer time data is crucial for several reasons:
   
 - **Reduced Duplication**: Instead of each mosque or organization developing its own system, everyone benefits from a shared infrastructure, reducing development time and costs.
 
+## Project Outcomes
+
+At the completion of this project, we will provide several key resources to facilitate the adoption and integration of the **Prayer Time Data Standard**:
+
+### 1. **Standardized CSV Format**
+   We will offer a standardized **CSV format** that can be used by mosques to easily export and share their prayer times. This format will include essential fields such as:
+
+   - Mosque name
+   - Location (latitude, longitude, time zone)
+   - Prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha)
+   - Jumu'ah prayer times
+   - Any local adjustments (e.g., for daylight savings)
+
+   This CSV format can be uploaded to websites, shared with mobile apps, or integrated into mosque management systems.
+
+### 2. **JSON Document Schema**
+   A **JSON schema** will be made available for more structured data transfer, which is ideal for web services, APIs, and mobile applications. The schema will include fields for:
+   
+   - Location information
+   - Calculation method
+   - Daily prayer times (with metadata for precision)
+   - Hijri/Gregorian date correlation
+   - Adjustments for time zones or custom prayer time shifts
+
+   The JSON schema ensures that developers can easily parse and integrate prayer time data across various platforms with consistency.
+
+### 3. **API Documentation**
+   We will also provide documentation for a standardized **Prayer Time API**, allowing mosques to broadcast their prayer times in real-time. The API will follow RESTful principles and support both JSON and XML formats, making it versatile for different development needs.
+
+### 4. **Online Validator Tool**
+   We will also provide an **online validator** tool that allows mosques and developers to upload their prayer time data (in CSV or JSON formats) and check whether it complies with the standard. This will help ensure that data is accurate, well-formatted, and ready for distribution across platforms.
+
 ## Conclusion
 
 Incorporating and adopting a **Prayer Time Data Standard** is essential for ensuring that the correct prayer times are delivered consistently across platforms, benefiting mosques, developers, and the wider Muslim community. By embracing an open standard, we can build a more connected and unified ecosystem that supports technological growth while preserving the accuracy and integrity of Islamic practices.
+
+The tools and resources provided at the end of this project will simplify integration, encourage widespread adoption, and ensure that mosques of all sizes can easily share their prayer times in a reliable and consistent manner.
